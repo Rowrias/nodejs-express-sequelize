@@ -13,4 +13,7 @@ Projeto utilizado no curso da Alura
 04. Comando que criara 4 pastas na raiz e dps pegar as pastas que foram criadas e jogar para a pasta source e criar um arquivo .sequelizerc na raiz:
     - npx sequelize-cli init
 
+05. Comando para criar um modelo Pessoa:
+    - npx sequelize-cli model:generate --name Pessoa --attributes nome:string,email:string,cpf:string,ativo:boolean,role:string
 
+06. x
