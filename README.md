@@ -16,4 +16,14 @@ Projeto utilizado no curso da Alura
 05. Comando para criar um modelo Pessoa:
     - npx sequelize-cli model:generate --name Pessoa --attributes nome:string,email:string,cpf:string,ativo:boolean,role:string
 
-06. x
+06. Comando para criar um modelo Categoria:
+    - npx sequelize-cli model:generate --name Categoria --attributes titulo:string
+
+07. Comando para criar um modelo Curso:
+    - npx sequelize-cli model:generate --name Curso --attributes titulo:string,descricao:string,data_inicio:dateonly
+
+08. Comando para criar um modelo Matricula:
+    - npx sequelize-cli model:generate --name Matricula --attributes status:string
+
+09. Depois criar um tablename no models e "vincular" com o migrations
+
