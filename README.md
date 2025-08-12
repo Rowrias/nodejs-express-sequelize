@@ -25,5 +25,17 @@ Projeto utilizado no curso da Alura
 08. Comando para criar um modelo Matricula:
     - npx sequelize-cli model:generate --name Matricula --attributes status:string
 
-09. Depois criar um tablename no models e "vincular" com o migrations
+09. Depois criar um tablename no models e "vincular" com o migrations.
 
+10. Enviando para o Banco:
+    - npx sequelize-cli db:migrate
+
+11. Populando o banco (seeders):
+    - npx sequelize-cli seed:generate --name demo-categorias
+    - npx sequelize-cli seed:generate --name demo-cursos
+    - npx sequelize-cli seed:generate --name demo-matriculas
+
+12. Executando o banco (sqlite):
+    - npx sequelize-cli db:seed --seed 20250812113445-demo-categorias
+    - npx sequelize-cli db:seed --seed 20250812113511-demo-cursos
+    - npx sequelize-cli db:seed --seed 20250812113531-demo-matriculas
